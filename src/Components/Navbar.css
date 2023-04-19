@@ -1,32 +1,32 @@
 .nav-container {
-  display: flex; /* Displays child elements in a row */
-  justify-content: space-between; /* Aligns child elements to the left and right edges of the container */
-  align-items: center; /* Centers child elements vertically within the container */
-  padding: 2rem 1rem; /* Adds 2rem of padding to the top and bottom, and 1rem of padding to the left and right */
-  background-color: #ec4c8b; /* Sets the background color to a shade of pink */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  background-color: #ec4c8b;
 }
 
 .home-btn button {
-  display: flex; /* Displays child elements in a row */
-  background-color: #ec4c8b; /* Sets the background color to a shade of pink */
-  padding: 0.5rem; /* Adds 0.5rem of padding to the top and bottom, and left and right */
-  border-style: none; /* Removes the border style */
-  font-size: 20px; /* Sets the font size to 20px */
-  font-weight: 800; /* Sets the font weight to bold */
-  cursor: pointer; /* Changes the cursor to a pointer when hovered over */
-  align-items: center; /* Centers child elements vertically */
+  display: flex;
+  background-color: #ec4c8b;
+  padding: 0.5rem;
+  border-style: none;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  align-items: center;
 }
 
 .nav-title h1 {
-  font-size: 20px; /* Sets the font size to 20px */
+  font-size: 20px;
 }
 
 .home-btn button,
 .nav-title h1,
 span {
-  color: #fff; /* Sets the text color to white */
+  color: #fff;
 }
 
 .nav-icons span {
-  margin: 0 0.5rem; /* Adds 0.5rem of margin to the left and right */
+  margin: 0 0.5rem;
 }

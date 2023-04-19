@@ -5,28 +5,26 @@ import ExchangeDetails from '../Components/ExchangeDetails';
 import './Home.css';
 
 function Home() {
-  const navigate = useNavigate(); // A hook from 'react-router-dom' that provides navigation functionality
+  const navigate = useNavigate();
 
-  const exchanges = useSelector((state) => state.Exchanges); // A hook from 'react-redux' that selects a piece of state from the store
-  const [exchangeList, setExchangeList] = useState([]); // A state hook that initializes the 'exchangeList' state with an empty array
+  const exchanges = useSelector((state) => state.Exchanges);
+  const [exchangeList, setExchangeList] = useState([]);
 
   useEffect(() => {
-    setExchangeList(exchanges); // A useEffect hook that updates the 'exchangeList' state when the 'exchanges' state changes
+    setExchangeList(exchanges);
   }, [exchanges]);
 
-  const handleSearch = (text) => { // A function that handles the search feature
+  const handleSearch = (text) => {
     const filterExchanges = exchanges.filter((exc) => (
-      exc.name.toLowerCase().includes(text.toLowerCase()) // Filters exchanges by name using case-insensitive search
+      exc.name.toLowerCase().includes(text.toLowerCase())
     ));
-    setExchangeList(filterExchanges); // Updates the 'exchangeList' state with the filtered list of exchanges
+    setExchangeList(filterExchanges);
   };
 
-  const showDetails = (id) => { // A function that handles displaying the details of an exchange
-    const itemClick = exchanges.filter((exchange) => exchange.id === id); // Filters the exchange by id
-    navigate('/details', { state: itemClick[0] }); // Navigates to the 'details' page with the selected exchange as state data
+  const showDetails = (id) => {
+    const itemClick = exchanges.filter((exchange) => exchange.id === id);
+    navigate('/details', { state: itemClick[0] });
   };
-  
-  // A JSX element that displays a search field and a list of exchanges using the 'ExchangeDetails' component
   return (
     <div className="main-container">
       <div className="search-field">
