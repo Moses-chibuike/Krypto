@@ -136,6 +136,14 @@ Feel free to check the [issues page](https://github.com/Moses-chibuike/Krypto/is
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🤝 Video Demo <a name="demo"></a>
+
+watch demo of this amazing project
+
+Feel free to check the [watch video](https://drive.google.com/file/d/1rg7Y77ZtTDU8JAAyZPCSCMvNDL7Revey/view?usp=share_link).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please give it a thumb up.
