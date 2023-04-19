@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Book Store</b></h3>
+  <h3><b>Krypto</b></h3>
 
 </div>
 
@@ -28,9 +28,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Book Store <a name="about-project"></a>
+# 📖 Krypto <a name="about-project"></a>
 
-**Book Store** is part of introductory projects in Microverse software development program.
+**Krypto** is part of introductory projects in Microverse software development program.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -132,7 +132,7 @@ Follow the procedures under [Install](#install) to run some of the included lint
 
 Contributions, issues, and feature requests are welcomed!
 
-Feel free to check the [issues page](https://github.com/Moses-chibuike/bookstore/issues).
+Feel free to check the [issues page](https://github.com/Moses-chibuike/Krypto/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
