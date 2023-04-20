@@ -115,7 +115,9 @@ Follow the procedures under [Install](#install) to run some of the included lint
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Moses-Chibuike**
+👤 **Creative Commons (The originator of the design)**
+
+👤 **Moses-Chibuike (The project contributor)**
 
 - GitHub: [@githubhandle](https://github.com/Moses-chibuike)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ezechukwu-chibuike/)
@@ -136,11 +138,21 @@ Feel free to check the [issues page](https://github.com/Moses-chibuike/Krypto/is
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Link to deployed project.
+
+- [Live Demo Link](https://krypto-o.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🤝 Video Demo <a name="demo"></a>
 
 watch demo of this amazing project
 
-Feel free to check the [watch video](https://drive.google.com/file/d/1rg7Y77ZtTDU8JAAyZPCSCMvNDL7Revey/view?usp=share_link).
+Feel free to check the [watch video](https://drive.google.com/file/d/1Z3L5x8KmAwJo8VztritnZtGexOfPjH-e/view?usp=sharing).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
