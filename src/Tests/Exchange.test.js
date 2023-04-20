@@ -19,7 +19,7 @@ describe('shoud dispatch get all exchanges action', () => {
 
     const postSpy = jest.spyOn(axios, 'get').mockResolvedValueOnce(exchanges);
     const store = configureStore({
-      reducer(state = [], action) {
+      reducer(state = [], action = {}) {
         switch (action.type) {
           case 'Exchange/Exchange/FETCH_ALL_EXCHANGES/fulfilled':
             return action.payload;

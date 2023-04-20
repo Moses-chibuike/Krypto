@@ -23,7 +23,7 @@ function Home() {
 
   const showDetails = (id) => {
     const itemClick = exchanges.filter((exchange) => exchange.id === id);
-    navigate('/details', { state: itemClick[0] });
+    navigate(`/details/${itemClick[0].name}`, { state: itemClick[0] });
   };
   return (
     <div className="main-container">
